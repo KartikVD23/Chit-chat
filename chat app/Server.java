@@ -130,8 +130,8 @@ public class Server extends JFrame implements ActionListener
                         msginput=din.readUTF();
                         a1.setText(a1.getText()+"\n"+msginput);
 
-                        skt.close();
-                        s.close();
+                        //skt.close();
+                        //s.close();
                     }
                 }
             }catch(Exception e){
